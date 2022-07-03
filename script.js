@@ -119,8 +119,8 @@ const check = function () {
 
 cellEl0.addEventListener('click', function () {
     if (playing) {
-        moves++;
         if (cells[0] === 0) {
+            moves++;
             if (activePlayer === 0) {
                 cells[0] = 1;
                 imgEl0.src = "images/cross.png";
@@ -154,8 +154,8 @@ cellEl0.addEventListener('click', function () {
 })
 cellEl1.addEventListener('click', function () {
     if (playing) {
-        moves++;
         if (cells[1] === 0) {
+            moves++;
             if (activePlayer === 0) {
                 cells[1] = 1;
                 imgEl1.src = "images/cross.png";
@@ -189,8 +189,8 @@ cellEl1.addEventListener('click', function () {
 })
 cellEl2.addEventListener('click', function () {
     if (playing) {
-        moves++;
         if (cells[2] === 0) {
+            moves++;
             if (activePlayer === 0) {
                 cells[2] = 1;
                 imgEl2.src = "images/cross.png";
@@ -224,8 +224,8 @@ cellEl2.addEventListener('click', function () {
 })
 cellEl3.addEventListener('click', function () {
     if (playing) {
-        moves++;
         if (cells[3] === 0) {
+            moves++;
             if (activePlayer === 0) {
                 cells[3] = 1;
                 imgEl3.src = "images/cross.png";
@@ -259,8 +259,8 @@ cellEl3.addEventListener('click', function () {
 })
 cellEl4.addEventListener('click', function () {
     if (playing) {
-        moves++;
         if (cells[4] === 0) {
+            moves++;
             if (activePlayer === 0) {
                 cells[4] = 1;
                 imgEl4.src = "images/cross.png";
@@ -294,8 +294,8 @@ cellEl4.addEventListener('click', function () {
 })
 cellEl5.addEventListener('click', function () {
     if (playing) {
-        moves++;
         if (cells[5] === 0) {
+            moves++;
             if (activePlayer === 0) {
                 cells[5] = 1;
                 imgEl5.src = "images/cross.png";
@@ -329,8 +329,8 @@ cellEl5.addEventListener('click', function () {
 })
 cellEl6.addEventListener('click', function () {
     if (playing) {
-        moves++;
         if (cells[6] === 0) {
+            moves++;
             if (activePlayer === 0) {
                 cells[6] = 1;
                 imgEl6.src = "images/cross.png";
@@ -364,8 +364,8 @@ cellEl6.addEventListener('click', function () {
 })
 cellEl7.addEventListener('click', function () {
     if (playing) {
-        moves++;
         if (cells[7] === 0) {
+            moves++;
             if (activePlayer === 0) {
                 cells[7] = 1;
                 imgEl7.src = "images/cross.png";
@@ -399,8 +399,8 @@ cellEl7.addEventListener('click', function () {
 })
 cellEl8.addEventListener('click', function () {
     if (playing) {
-        moves++;
         if (cells[8] === 0) {
+            moves++;
             if (activePlayer === 0) {
                 cells[8] = 1;
                 imgEl8.src = "images/cross.png";
