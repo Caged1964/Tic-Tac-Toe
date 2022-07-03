@@ -83,4 +83,10 @@ img{
     .score-card{
     font-size: 18px;
     }
+    .row{
+    margin-top: 2.5px;
+    }
+    .option-area{
+    padding-bottom: 25px;
+    }
 }
