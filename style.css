@@ -66,3 +66,17 @@ img{
     font-weight: bolder;
     color: #1b2430;
 }
+@media (max-width: 480px){
+    .cell{
+        height: 70px;
+        width: 70px;
+    }
+    img{
+        height: 65px;
+        width: 65px;
+        margin-top: 2.5px;
+    }
+    header{
+        font-size: 30px;
+    }
+}
